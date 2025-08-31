@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "43b83b7b8f3f535ff84377573cd55a05",
-    "previewModeSigningKey": "20d9f26a1dd8bf2d1e11bfdfc233161063f5a4c0ac02219602614ca534ed73ea",
-    "previewModeEncryptionKey": "d5f1c7a7e62aa96b12e57e45eb0722166444816a708413007af9e2df8680e8d7"
-  }
-}
+{"version":4,"routes":{"/blog/getting-started-with-craftedtemplate":{}},"dynamicRoutes":{"/blog/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/blog/[slug]","routeRegex":"^\\/blog\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"43b83b7b8f3f535ff84377573cd55a05","previewModeSigningKey":"20d9f26a1dd8bf2d1e11bfdfc233161063f5a4c0ac02219602614ca534ed73ea","previewModeEncryptionKey":"d5f1c7a7e62aa96b12e57e45eb0722166444816a708413007af9e2df8680e8d7"}}
