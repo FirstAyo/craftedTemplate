@@ -1,0 +1,7 @@
+In your template detail page, replace the existing "Buy now" link with:
+
+import BuyButton from "../../../components/BuyButton";
+
+<BuyButton template={t} />
+
+It prefers Lemon Squeezy if `lsVariantId` is set; else Stripe if `stripePriceId` exists; else shows "Coming soon".

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getTemplateBySlug, getTemplates } from "../../../lib/cms";
+import BuyButton from "../../../components/BuyButton";
 import Image from "next/image";
 
 export const revalidate = 300;
@@ -153,7 +154,7 @@ export default async function TemplateDetail({ params }) {
                 href="/checkout"
                 className="rounded-xl bg-brand px-5 py-3 text-white font-medium hover:bg-brand-dark"
               >
-                Buy now
+                <BuyButton template={t} />
               </a>
               {t.demoUrl && (
                 <a

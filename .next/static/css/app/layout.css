@@ -606,6 +606,9 @@ video {
 .flex {
   display: flex;
 }
+.inline-flex {
+  display: inline-flex;
+}
 .grid {
   display: grid;
 }
@@ -765,6 +768,10 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.bg-zinc-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(212 212 216 / var(--tw-bg-opacity));
 }
 .bg-gradient-to-br {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
@@ -1022,6 +1029,9 @@ body { background: #fafafa; color: #0a0a0a; }
 }
 .focus\:ring-brand\/40:focus {
   --tw-ring-color: rgb(79 70 229 / 0.4);
+}
+.disabled\:opacity-60:disabled {
+  opacity: 0.6;
 }
 @media (min-width: 640px) {
 
